@@ -46,7 +46,6 @@ target.hover(function() {
 
 //open modal box when mouse enter
 $('.list').mouseenter(function(e) {
-  console.log('enter', e);
   $('.modal').addClass('open');
 
 });
